@@ -48,9 +48,9 @@ if(guess === randonNumber) {
    displayMessage(`you guessed it right`)
    endGame()
 }else if (guess < randonNumber){
-   displayMessage(`Number is less than randonNumber`)
+   displayMessage(`your number is less than randomNumber`)
 }else if (guess > randonNumber){
-   displayMessage(`Number is greater than randonNumber`)
+   displayMessage(`your number is greater than randomNumber`)
 }
 }
 
