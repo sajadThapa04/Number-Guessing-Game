@@ -32,7 +32,7 @@ function validateGuess(guess){
     alert('please enter num less than 100')
  }else{
     prevGuess.push(guess);
-    if(numOfGuess >=5){ 
+    if(numOfGuess >=10){ 
         displayGuess(guess);
         displayMessage(`Game over, Random number was ${randonNumber}`)
         endGame();
@@ -58,7 +58,7 @@ function displayGuess(guess){
    userInput.value= ''
    remainingGuess.innerHTML += `${guess}, `
    numOfGuess++;
-   lastResult.innerHTML = `${6 - numOfGuess}`
+   lastResult.innerHTML = `${11 - numOfGuess}`
 }
 
 function displayMessage(message){
