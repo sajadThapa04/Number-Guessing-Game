@@ -58,7 +58,7 @@ function displayGuess(guess){
    userInput.value= ''
    remainingGuess.innerHTML += `${guess}, `
    numOfGuess++;
-   lastResult.innerHTML = `${11 - numOfGuess}`
+   lastResult.innerHTML = `${6 - numOfGuess}`
 }
 
 function displayMessage(message){
